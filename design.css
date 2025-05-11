@@ -1,0 +1,97 @@
+html {
+  background-color: #1e1e2f;
+  font-family: Helvetica;
+}
+
+.title {
+  text-align: center;
+  border: solid black;
+  margin: auto;
+  background-color: #2a9d8f;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 16px;
+  color: #f5f5dc;
+}
+
+.WDIR {
+  color: #e0f7fa;
+  text-align: center;
+  background-color: #264653;
+  border: solid black;
+  width: 520px;
+  padding: 10px;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.HDFC {
+  text-align: center;
+  background-color: #2f855a;
+  width: 520px;
+  margin-left: auto;
+  border: solid black;
+  padding: 10px;
+  color: #ecfdf5;
+  border-radius: 50px;
+}
+
+.MRP {
+  border: solid black;
+  margin-right: auto;
+  background-color: #b08900;
+  width: 520px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 40px;
+  color: #fffbe6;
+}
+
+.WDIL {
+  text-align: center;
+  background-color: #c76b2d;
+  width: 520px;
+  margin-left: auto;
+  border: solid black;
+  padding: 10px;
+  color: #fdf6ec;
+  border-radius: 50px;
+}
+
+.end {
+  text-align: center;
+  border: solid black;
+  width: 1000;
+  margin: auto;
+  padding: 10px;
+  background-color: #5e548e;
+  color: #f6efff;
+  border-radius: 20px;
+}
+
+.image1 {
+  height: 260px;
+  border: solid black 5px;
+  border-radius: 40px;
+}
+
+.image-content {
+  justify-content: space-around;
+  display: flex;
+  height: 80vh;
+  flex-direction: row-reverse;
+}
+
+.image-content img {
+  object-fit: contain;
+  border: 5px solid black;
+  border-radius: 30px;
+}
+
+.image3 {
+  height: 260px;
+  border: solid black 5px;
+  border-radius: 40px;
+  transform: rotate(-90deg);
+  margin-left: 150px;
+}
